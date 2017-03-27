@@ -1,8 +1,13 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, send_file
 from models.APIs import PlacesApi
-from flask.ext.cors import CORS
+from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
+
+
+@app.route("/")
+def index():
+    return send_file("templates/index.html")
 
 @app.route('/place', methods=["GET"])
 def getPlaces():
