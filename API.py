@@ -18,12 +18,16 @@ def getPlaces():
 
 @app.route("/place", methods=["POST"])
 def createNewPlace():
-    placeApi = PlacesApi.PlaceAPI()
-    data = request.json
-    newPlace = placeApi.createNewPlace(data["placeid"], data["name"], data["address"],
-                                       data["X"], data["Y"])
-    result = placeApi.saveNewPlace(newPlace)
-    return jsonify(result)
+    try:
+        placeApi = PlacesApi.PlaceAPI()
+        data = request.json
+        newPlace = placeApi.createNewPlace(data["placeid"], data["name"], data["address"],
+                                           data["X"], data["Y"])
+        result = placeApi.saveNewPlace(newPlace)
+        return jsonify(result)
+    except Exception as e:
+        print(e)
+        return "cant"
 
 @app.route('/place/counts', methods=["GET"])
 def getPlaceCounts():

@@ -136,11 +136,11 @@ class BedDao(IBedDao):
                 return str(e)
 
 
-# if __name__ == "__main__":
-#     new_bed = Beds.Bed(0,233,12,1)
-#     beds = BedDao()
-#     # print(beds.createNewBed(new_bed))
-#     print(beds.getBeds(6))
-#     print(beds.getAvailableBeds(6))
-#     print(beds.setNewGuest(555,10))
-#     print(beds.removeGuest(10))
+if __name__ == "__main__":
+    new_bed = Beds.Bed(999,-1,6,1)
+    beds = BedDao()
+    print(beds.createNewBed(new_bed))
+    print(beds.getBeds(6))
+    print(beds.getAvailableBeds(6))
+    print(beds.setNewGuest(555,10))
+    print(beds.removeGuest(10))
