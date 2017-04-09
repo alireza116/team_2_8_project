@@ -9,7 +9,7 @@ class BedsApi():
         newBed = beds.Bed(bed_id, guest_id, placeid, availability)
         return newBed
 
-    def saveNewPlace(self, newBed):
+    def saveNewBed(self, newBed):
 
         result = self._beds_Dao.createNewBed(newBed)
         return result
