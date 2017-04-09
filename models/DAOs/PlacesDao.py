@@ -79,9 +79,9 @@ class PlaceDao(IPlaceDao):
         """
         with self._connection.cursor() as cursor:
             try:
-                sql = '''SELECT  placeids.placeid, raw_data.providername, count(raw_data.providername) FROM raw_data  JOIN
+                sql = '''SELECT  placeids.placeid, raw_data.providername, placeids.Adress, placeids.X, placeids.Y ,  count(raw_data.providername) FROM raw_data  JOIN
                                 (
-                                SELECT placeID, providername from places
+                                SELECT placeID, providername, Adress, X, Y from places
                                 ) placeids
                                 ON raw_data.providername = placeids.providername
                                 group by raw_data.providername, placeids.placeid;'''
@@ -91,11 +91,15 @@ class PlaceDao(IPlaceDao):
                 for place in places:
                     place = list(place)
                     place[0] = int(place[0])
-                    place[2] = int(place[2])
+                    place[3] = float(place[3])
+                    place[4] = float(place[4])
+                    place[5] = int(place[5])
                     placeObject = {
                         "placeID" : place[0],
                         "prvoiderName": place[1],
-                        "count" : place[2]
+                        "X" : place[3],
+                        "Y" : place[4],
+                        "count" : place[5]
                     }
                     data.append(placeObject)
                 return data

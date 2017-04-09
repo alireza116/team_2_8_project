@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96f60a46-388b-4f46-ac0f-ef10f6510a45" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/createTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mainTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mainmap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API.py" afterPath="$PROJECT_DIR$/API.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/DAOs/BedsDao.py" afterPath="$PROJECT_DIR$/models/DAOs/BedsDao.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/setUpConnection.py" afterPath="$PROJECT_DIR$/models/setUpConnection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/APIs/BedsApi.py" afterPath="$PROJECT_DIR$/models/APIs/BedsApi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/DAOs/PlacesDao.py" afterPath="$PROJECT_DIR$/models/DAOs/PlacesDao.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <ignored path="API.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,13 +22,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/API$setUpConnection.coverage" NAME="setUpConnection Coverage Results" MODIFIED="1490568630670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/API$Unittests_in_PlacesApiTest.coverage" NAME="Unittests in PlacesApiTest Coverage Results" MODIFIED="1490582989307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
     <SUITE FILE_PATH="coverage/API$BedsDao.coverage" NAME="BedsDao Coverage Results" MODIFIED="1491760708944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/DAOs" />
+    <SUITE FILE_PATH="coverage/API$setUpConnection.coverage" NAME="setUpConnection Coverage Results" MODIFIED="1491763742532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/API$PlacesApi.coverage" NAME="PlacesApi Coverage Results" MODIFIED="1490581826182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
     <SUITE FILE_PATH="coverage/API$Unittests_in_setUpConnectionsTest.coverage" NAME="Unittests in setUpConnectionsTest Coverage Results" MODIFIED="1490795045606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/API$PlacesDao.coverage" NAME="PlacesDao Coverage Results" MODIFIED="1491759910177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/DAOs" />
-    <SUITE FILE_PATH="coverage/API$API.coverage" NAME="API Coverage Results" MODIFIED="1491760955679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/API$API.coverage" NAME="API Coverage Results" MODIFIED="1491763916806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -39,34 +42,10 @@
       <file leaf-file-name="API.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+            <state relative-caret-position="459">
+              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlacesApiTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/APIs/PlacesApiTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlacesApi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/APIs/PlacesApi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,14 +54,14 @@
       <file leaf-file-name="PlacesDao.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/DAOs/PlacesDao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="258">
+              <caret line="81" column="113" selection-start-line="81" selection-start-column="113" selection-end-line="81" selection-end-column="113" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
-                <marker date="1491674062975" expanded="true" signature="821:901" ph="INSERT INTO places... " />
-                <marker date="1491674062975" expanded="true" signature="1317:1371" ph="SELECT place... places" />
-                <marker date="1491674062975" expanded="true" signature="2291:2700" ph="SELECT place... raw_data" />
-                <marker date="1491674062975" expanded="true" signature="2455:2495" ph="SELECT place... places" />
+                <marker date="1491774173058" expanded="true" signature="821:901" ph="INSERT INTO places... " />
+                <marker date="1491774173058" expanded="true" signature="1317:1371" ph="SELECT place... places" />
+                <marker date="1491774173058" expanded="true" signature="2291:2757" ph="SELECT place... raw_data" />
+                <marker date="1491774173058" expanded="true" signature="2498:2552" ph="SELECT place... places" />
               </folding>
             </state>
           </provider>
@@ -91,7 +70,7 @@
       <file leaf-file-name="BedsDao.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/DAOs/BedsDao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2312">
+            <state relative-caret-position="1214">
               <caret line="138" column="26" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
@@ -105,58 +84,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BedsApi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/APIs/BedsApi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="places.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Resources/places.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="-170">
               <caret line="14" column="21" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beds.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Resources/beds.py">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setUpConnection.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/setUpConnection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
               <folding>
-                <element signature="e#0#53#0" expanded="true" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setUpConnectionsTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/setUpConnectionsTest.py">
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainTable.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/mainTable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createTable.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/createTable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1490795045558" expanded="true" signature="834:854" ph="SELECT * FRO... places" />
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainmap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/mainmap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+                <marker date="1491774263896" expanded="true" signature="318:324" ph="©" />
+                <marker date="1491774263896" expanded="true" signature="824:833" ph="..." />
+                <marker date="1491774263896" expanded="true" signature="945:954" ph="..." />
               </folding>
             </state>
           </provider>
@@ -170,6 +171,7 @@
         <option value="Flask Main" />
         <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -189,15 +191,18 @@
         <option value="$PROJECT_DIR$/models/PlacesApi.py" />
         <option value="$PROJECT_DIR$/models/Resources/places.py" />
         <option value="$PROJECT_DIR$/models/APIs/PlacesApiTest.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/models/setUpConnectionsTest.py" />
-        <option value="$PROJECT_DIR$/models/DAOs/PlacesDao.py" />
         <option value="$PROJECT_DIR$/models/APIs/PlacesApi.py" />
         <option value="$PROJECT_DIR$/models/Resources/beds.py" />
-        <option value="$PROJECT_DIR$/models/APIs/BedsApi.py" />
         <option value="$PROJECT_DIR$/models/DAOs/BedsDao.py" />
         <option value="$PROJECT_DIR$/API.py" />
         <option value="$PROJECT_DIR$/models/setUpConnection.py" />
+        <option value="$PROJECT_DIR$/models/APIs/BedsApi.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/models/DAOs/PlacesDao.py" />
+        <option value="$PROJECT_DIR$/static/js/mainTable.js" />
+        <option value="$PROJECT_DIR$/static/js/mainmap.js" />
+        <option value="$PROJECT_DIR$/static/js/createTable.js" />
       </list>
     </option>
   </component>
@@ -212,10 +217,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -287,6 +291,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,24 +481,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="PlacesApi" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/APIs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="API" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/APIs/PlacesApi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests in PlacesApiTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -514,6 +518,24 @@
       <module name="API" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/DAOs/BedsDao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="setUpConnection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="API" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/setUpConnection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -1166,17 +1188,17 @@
       <item index="0" class="java.lang.String" itemvalue="Python.API" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in setUpConnectionsTest" />
       <item index="2" class="java.lang.String" itemvalue="Python.PlacesDao" />
-      <item index="3" class="java.lang.String" itemvalue="Python.PlacesApi" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in PlacesApiTest" />
-      <item index="5" class="java.lang.String" itemvalue="Python.BedsDao" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in PlacesApiTest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.BedsDao" />
+      <item index="5" class="java.lang.String" itemvalue="Python.setUpConnection" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.BedsDao" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PlacesDao" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in setUpConnectionsTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in PlacesApiTest" />
-        <item index="4" class="java.lang.String" itemvalue="Python.PlacesApi" />
+        <item index="0" class="java.lang.String" itemvalue="Python.setUpConnection" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BedsDao" />
+        <item index="2" class="java.lang.String" itemvalue="Python.PlacesDao" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in setUpConnectionsTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in PlacesApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1198,7 +1220,7 @@
       <workItem from="1490794603934" duration="1065000" />
       <workItem from="1491672850524" duration="12213000" />
       <workItem from="1491752648273" duration="2984000" />
-      <workItem from="1491760855859" duration="164000" />
+      <workItem from="1491760855859" duration="12688000" />
     </task>
     <task id="LOCAL-00001" summary="Place API complete, Beds Api Completed">
       <created>1491753445594</created>
@@ -1207,7 +1229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491753445594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Apis connected to amazon mysql">
+      <created>1491761048379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1491761048379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1243,7 +1272,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38570000" />
+    <option name="totallyTimeSpent" value="51094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1255,7 +1284,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1264,12 +1293,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31661093" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31756756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10554371" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21663019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1299,11 +1328,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Place API complete, Beds Api Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Place API complete, Beds Api Completed" />
+    <MESSAGE value="Apis connected to amazon mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apis connected to amazon mysql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1312,77 +1342,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/APIs/PlacesApi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/DAOs/PlacesDao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-            <marker date="1491674062975" expanded="true" signature="821:901" ph="INSERT INTO places... " />
-            <marker date="1491674062975" expanded="true" signature="1317:1371" ph="SELECT place... places" />
-            <marker date="1491674062975" expanded="true" signature="2291:2700" ph="SELECT place... raw_data" />
-            <marker date="1491674062975" expanded="true" signature="2455:2495" ph="SELECT place... places" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/DAOs/BedsDao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="138" column="26" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-            <marker date="1491760145248" expanded="true" signature="1092:1171" ph="INSERT INTO beds... " />
-            <marker date="1491760145248" expanded="true" signature="1597:1636" ph="SELECT * fro... beds" />
-            <marker date="1491760145248" expanded="true" signature="2476:2536" ph="SELECT * fro... beds" />
-            <marker date="1491760145248" expanded="true" signature="3381:3450" ph="UPDATE beds " />
-            <marker date="1491760145248" expanded="true" signature="3758:3825" ph="UPDATE beds " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/APIs/BedsApi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Resources/places.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Resources/beds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/setUpConnection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1392,7 +1357,7 @@
         <state relative-caret-position="323">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
             <marker date="1490795045558" expanded="true" signature="834:854" ph="SELECT * FRO... places" />
           </folding>
         </state>
@@ -1413,7 +1378,7 @@
         <state relative-caret-position="187">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1423,7 +1388,7 @@
         <state relative-caret-position="391">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1434,10 +1399,10 @@
           <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1491674062975" expanded="true" signature="821:901" ph="INSERT INTO places... " />
-            <marker date="1491674062975" expanded="true" signature="1317:1371" ph="SELECT place... places" />
-            <marker date="1491674062975" expanded="true" signature="2291:2700" ph="SELECT place... raw_data" />
-            <marker date="1491674062975" expanded="true" signature="2455:2495" ph="SELECT place... places" />
+            <marker date="1491774173058" expanded="true" signature="821:901" ph="INSERT INTO places... " />
+            <marker date="1491774173058" expanded="true" signature="1317:1371" ph="SELECT place... places" />
+            <marker date="1491774173058" expanded="true" signature="2291:2757" ph="SELECT place... raw_data" />
+            <marker date="1491774173058" expanded="true" signature="2498:2552" ph="SELECT place... places" />
           </folding>
         </state>
       </provider>
@@ -1462,7 +1427,7 @@
         <state relative-caret-position="357">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1488,7 +1453,7 @@
         <state relative-caret-position="1105">
           <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1498,7 +1463,7 @@
         <state relative-caret-position="323">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
             <marker date="1490795045558" expanded="true" signature="834:854" ph="SELECT * FRO... places" />
           </folding>
         </state>
@@ -1526,7 +1491,7 @@
         <state relative-caret-position="255">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1536,7 +1501,7 @@
         <state relative-caret-position="323">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1547,10 +1512,10 @@
           <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1491674062975" expanded="true" signature="821:901" ph="INSERT INTO places... " />
-            <marker date="1491674062975" expanded="true" signature="1317:1371" ph="SELECT place... places" />
-            <marker date="1491674062975" expanded="true" signature="2291:2700" ph="SELECT place... raw_data" />
-            <marker date="1491674062975" expanded="true" signature="2455:2495" ph="SELECT place... places" />
+            <marker date="1491774173058" expanded="true" signature="821:901" ph="INSERT INTO places... " />
+            <marker date="1491774173058" expanded="true" signature="1317:1371" ph="SELECT place... places" />
+            <marker date="1491774173058" expanded="true" signature="2291:2757" ph="SELECT place... raw_data" />
+            <marker date="1491774173058" expanded="true" signature="2498:2552" ph="SELECT place... places" />
           </folding>
         </state>
       </provider>
@@ -1568,7 +1533,7 @@
         <state relative-caret-position="1105">
           <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1578,7 +1543,7 @@
         <state relative-caret-position="476">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
             <marker date="1490795045558" expanded="true" signature="834:854" ph="SELECT * FRO... places" />
           </folding>
         </state>
@@ -1606,7 +1571,7 @@
         <state relative-caret-position="255">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1616,7 +1581,7 @@
         <state relative-caret-position="306">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1627,10 +1592,10 @@
           <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1491674062975" expanded="true" signature="821:901" ph="INSERT INTO places... " />
-            <marker date="1491674062975" expanded="true" signature="1317:1371" ph="SELECT place... places" />
-            <marker date="1491674062975" expanded="true" signature="2291:2700" ph="SELECT place... raw_data" />
-            <marker date="1491674062975" expanded="true" signature="2455:2495" ph="SELECT place... places" />
+            <marker date="1491774173058" expanded="true" signature="821:901" ph="INSERT INTO places... " />
+            <marker date="1491774173058" expanded="true" signature="1317:1371" ph="SELECT place... places" />
+            <marker date="1491774173058" expanded="true" signature="2291:2757" ph="SELECT place... raw_data" />
+            <marker date="1491774173058" expanded="true" signature="2498:2552" ph="SELECT place... places" />
           </folding>
         </state>
       </provider>
@@ -1648,7 +1613,7 @@
         <state relative-caret-position="1105">
           <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1658,7 +1623,7 @@
         <state relative-caret-position="323">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="25" selection-end-column="46" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
             <marker date="1490795045558" expanded="true" signature="834:854" ph="SELECT * FRO... places" />
           </folding>
         </state>
@@ -1687,7 +1652,7 @@
         <state relative-caret-position="51">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1697,7 +1662,7 @@
         <state relative-caret-position="459">
           <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
             <marker date="1490795045558" expanded="true" signature="834:854" ph="SELECT * FRO... places" />
           </folding>
         </state>
@@ -1711,19 +1676,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/DepartmentApi.py" />
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="100" column="42" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/APIs/PlacesApiTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1733,7 +1691,7 @@
         <state relative-caret-position="391">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1743,55 +1701,95 @@
         <state relative-caret-position="323">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
             <marker date="1490795045558" expanded="true" signature="834:854" ph="SELECT * FRO... places" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/APIs/BedsApi.py">
+    <entry file="file://$PROJECT_DIR$/models/setUpConnection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="449">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/DAOs/PlacesDao.py">
+    <entry file="file://$PROJECT_DIR$/models/Resources/beds.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="466">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/APIs/BedsApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
-            <marker date="1491674062975" expanded="true" signature="821:901" ph="INSERT INTO places... " />
-            <marker date="1491674062975" expanded="true" signature="1317:1371" ph="SELECT place... places" />
-            <marker date="1491674062975" expanded="true" signature="2291:2700" ph="SELECT place... raw_data" />
-            <marker date="1491674062975" expanded="true" signature="2455:2495" ph="SELECT place... places" />
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Resources/places.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="-170">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Resources/beds.py">
+    <entry file="file://$PROJECT_DIR$/static/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/DAOs/BedsDao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
+        <state relative-caret-position="1214">
           <caret line="138" column="26" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
@@ -1804,22 +1802,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API.py">
+    <entry file="file://$PROJECT_DIR$/models/DAOs/PlacesDao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state relative-caret-position="258">
+          <caret line="81" column="113" selection-start-line="81" selection-start-column="113" selection-end-line="81" selection-end-column="113" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="true" />
+            <marker date="1491774173058" expanded="true" signature="821:901" ph="INSERT INTO places... " />
+            <marker date="1491774173058" expanded="true" signature="1317:1371" ph="SELECT place... places" />
+            <marker date="1491774173058" expanded="true" signature="2291:2757" ph="SELECT place... raw_data" />
+            <marker date="1491774173058" expanded="true" signature="2498:2552" ph="SELECT place... places" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/setUpConnection.py">
+    <entry file="file://$PROJECT_DIR$/static/js/mainTable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/mainmap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="32" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
+            <marker date="1491774263896" expanded="true" signature="318:324" ph="©" />
+            <marker date="1491774263896" expanded="true" signature="824:833" ph="..." />
+            <marker date="1491774263896" expanded="true" signature="945:954" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/createTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
