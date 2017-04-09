@@ -18,3 +18,7 @@ class PlaceAPI():
         result = self._place_Dao.getPlaces()
         return result
 
+    def getPlaceCounts(self):
+        result = self._place_Dao.getPlaceCounts()
+        return result
+

@@ -23,7 +23,7 @@ class MyTestCase(unittest.TestCase):
             sql = "SELECT * FROM places"
             cursor.execute(sql)
             results = cursor.fetchall()
-            self.assertEqual(len(results), 17)
+            self.assertEqual(len(results), 19)
 
 if __name__ == '__main__':
     unittest.main()

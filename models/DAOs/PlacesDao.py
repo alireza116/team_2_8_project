@@ -71,3 +71,40 @@ class PlaceDao(IPlaceDao):
             except Exception as e:
                 print(e)
                 return "Unable to get list of places"
+
+    def getPlaceCounts(self):
+        """
+
+        :return: List Place
+        """
+        with self._connection.cursor() as cursor:
+            try:
+                sql = '''SELECT  placeids.placeid, raw_data.providername, count(raw_data.providername) FROM raw_data  JOIN
+                                (
+                                SELECT placeID, providername from places
+                                ) placeids
+                                ON raw_data.providername = placeids.providername
+                                group by raw_data.providername, placeids.placeid;'''
+                cursor.execute(sql)
+                places = cursor.fetchall()
+                data = []
+                for place in places:
+                    place = list(place)
+                    place[0] = int(place[0])
+                    place[2] = int(place[2])
+                    placeObject = {
+                        "placeID" : place[0],
+                        "prvoiderName": place[1],
+                        "count" : place[2]
+                    }
+                    data.append(placeObject)
+                return data
+            except Exception as e:
+                print(e)
+                return "Unable to get list of places"
+
+
+if __name__ == "__main__":
+    places = PlaceDao()
+    print(places.getPlaceCounts())
+
