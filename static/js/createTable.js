@@ -15,7 +15,6 @@ var createTable = function(){
         // create rows
         var tr = d3.select("tbody").selectAll("tr")
             .data(data).enter().append("tr").attr("class", function(d){
-                console.log(d);
                 return d.placeID});
 
         tr.on("click",function(d){
@@ -49,6 +48,11 @@ var createTable = function(){
             .data(function(i){return d3.values(i)})
             .enter().append("td")
             .text(function(i) {return i})
+
+        tr.on("click",function(d){
+            console.log("kir");
+            $('#login-modal').modal('toggle');
+        })
     }
 
 };

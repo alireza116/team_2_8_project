@@ -118,7 +118,7 @@ class BedDao(IBedDao):
             try:
                 sql = '''UPDATE beds SET guest_id = (%s), availability = 0 WHERE bed_id = (%s) '''
 
-                cursor.execute(sql, [bed_id,new_guest])
+                cursor.execute(sql, [new_guest, bed_id])
                 return True
             except Exception as e:
                 print(e)

@@ -51,6 +51,20 @@ def getAvailableBeds():
     beds = api.getAvailableBeds(placeid)
     return jsonify(beds)
 
+@app.route("/bed/reserve" , methods=["PUT"])
+def setNewGuest():
+    data = request.json
+    bedsapi = BedsApi.BedsApi()
+    result = bedsapi.setNewGuest(data["bed_id"],data["guest_id"])
+    return jsonify(result)
+
+@app.route("/bed/checkout" , methods=["PUT"])
+def removeGuest():
+    data = request.json
+    bedsapi = BedsApi.BedsApi()
+    result = bedsapi.removeGuest(data["bed_id"])
+    return jsonify(result)
+
 @app.route("/bed", methods=["POST"])
 def createNewBed():
     data = request.json
