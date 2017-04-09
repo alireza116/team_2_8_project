@@ -48,7 +48,7 @@ class Bed(IBed):
         return self._bed_id
 
     @property
-    def geust_id(self):
+    def guest_id(self):
         return self._guest_id
 
     @property
