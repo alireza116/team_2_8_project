@@ -12,7 +12,7 @@ class IBed(ABC):
 
     @property
     @abstractproperty
-    def geust_id(self):
+    def guest_id(self):
         pass
 
     @property
@@ -71,4 +71,6 @@ class Bed(IBed):
 
 
 
-
+if __name__ == "__main__":
+    bed = Bed(123,4,23,1)
+    print(bed)

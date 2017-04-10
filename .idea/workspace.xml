@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96f60a46-388b-4f46-ac0f-ef10f6510a45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/modal.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API.py" afterPath="$PROJECT_DIR$/API.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/APIs/PlacesApiTest.py" afterPath="$PROJECT_DIR$/models/APIs/PlacesApiTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/APIs/UnitTest_Api.py" afterPath="$PROJECT_DIR$/models/APIs/UnitTest_Api.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/DAOs/BedsDao.py" afterPath="$PROJECT_DIR$/models/DAOs/BedsDao.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/dashboard.css" afterPath="$PROJECT_DIR$/static/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/createTable.js" afterPath="$PROJECT_DIR$/static/js/createTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/DAOs/UnitTest_Dao.py" afterPath="$PROJECT_DIR$/models/DAOs/UnitTest_Dao.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Resources/beds.py" afterPath="$PROJECT_DIR$/models/Resources/beds.py" />
     </list>
     <ignored path="API.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,13 +21,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/API$Unittest_MyTestCase_test_something.coverage" NAME="Unittest MyTestCase.test_something Coverage Results" MODIFIED="1491782425624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittests_in_TestPlacesApi.coverage" NAME="Unittests in TestPlacesApi Coverage Results" MODIFIED="1491782718892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittests_in_TestBedsDao__1_.coverage" NAME="Unittests in TestBedsDao (1) Coverage Results" MODIFIED="1491783597244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/DAOs" />
+    <SUITE FILE_PATH="coverage/API$Unittest_TestPlacesApi_test_saveNewPlace.coverage" NAME="Unittest TestPlacesApi.test_saveNewPlace Coverage Results" MODIFIED="1491782405334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
     <SUITE FILE_PATH="coverage/API$Unittests_in_PlacesApiTest.coverage" NAME="Unittests in PlacesApiTest Coverage Results" MODIFIED="1490582989307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
     <SUITE FILE_PATH="coverage/API$BedsDao.coverage" NAME="BedsDao Coverage Results" MODIFIED="1491760708944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/DAOs" />
+    <SUITE FILE_PATH="coverage/API$Unittest_TestBedsApi_test_setNewGuest.coverage" NAME="Unittest TestBedsApi.test_setNewGuest Coverage Results" MODIFIED="1491781932202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittests_in_TestPlacesApi__1_.coverage" NAME="Unittests in TestPlacesApi (1) Coverage Results" MODIFIED="1491782874672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittests_in_TestBedsApi.coverage" NAME="Unittests in TestBedsApi Coverage Results" MODIFIED="1491783106884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
     <SUITE FILE_PATH="coverage/API$setUpConnection.coverage" NAME="setUpConnection Coverage Results" MODIFIED="1491763742532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
-    <SUITE FILE_PATH="coverage/API$PlacesApi.coverage" NAME="PlacesApi Coverage Results" MODIFIED="1490581826182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
     <SUITE FILE_PATH="coverage/API$Unittests_in_setUpConnectionsTest.coverage" NAME="Unittests in setUpConnectionsTest Coverage Results" MODIFIED="1490795045606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/API$PlacesDao.coverage" NAME="PlacesDao Coverage Results" MODIFIED="1491759910177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/DAOs" />
+    <SUITE FILE_PATH="coverage/API$Unittest_TestBedsApi_test_removeGuest.coverage" NAME="Unittest TestBedsApi.test_removeGuest Coverage Results" MODIFIED="1491781945712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
     <SUITE FILE_PATH="coverage/API$API.coverage" NAME="API Coverage Results" MODIFIED="1491775961807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/API$beds.coverage" NAME="beds Coverage Results" MODIFIED="1491781353312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/Resources" />
+    <SUITE FILE_PATH="coverage/API$Unittest_TestPlacesApi_test_createNewPlace.coverage" NAME="Unittest TestPlacesApi.test_createNewPlace Coverage Results" MODIFIED="1491782258492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittest_MyTestCase_test_something__1_.coverage" NAME="Unittest MyTestCase.test_something (1) Coverage Results" MODIFIED="1491782751666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittests_in_TestPlacesDao.coverage" NAME="Unittests in TestPlacesDao Coverage Results" MODIFIED="1491783618305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/DAOs" />
+    <SUITE FILE_PATH="coverage/API$Unittest_TestPlacesApi_test_createNewPlace__1_.coverage" NAME="Unittest TestPlacesApi.test_createNewPlace (1) Coverage Results" MODIFIED="1491782390880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittest_TestBedsDao_test_createNewBed.coverage" NAME="Unittest TestBedsDao.test_createNewBed Coverage Results" MODIFIED="1491783593819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/DAOs" />
+    <SUITE FILE_PATH="coverage/API$PlacesApi.coverage" NAME="PlacesApi Coverage Results" MODIFIED="1490581826182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittest_TestBedsApi_test_saveNewBed.coverage" NAME="Unittest TestBedsApi.test_saveNewBed Coverage Results" MODIFIED="1491781862733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittest_TestBedsApi_test_createNewBed.coverage" NAME="Unittest TestBedsApi.test_createNewBed Coverage Results" MODIFIED="1491781500139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittests_in_TestBedsDao.coverage" NAME="Unittests in TestBedsDao Coverage Results" MODIFIED="1491783506233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/DAOs" />
+    <SUITE FILE_PATH="coverage/API$Unittest_TestBedsApi_test_getBeds.coverage" NAME="Unittest TestBedsApi.test_getBeds Coverage Results" MODIFIED="1491781866195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittests_in_TestBedsDao__2_.coverage" NAME="Unittests in TestBedsDao (2) Coverage Results" MODIFIED="1491783665506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/DAOs" />
+    <SUITE FILE_PATH="coverage/API$Unittests_in_TestBedsApi__1_.coverage" NAME="Unittests in TestBedsApi (1) Coverage Results" MODIFIED="1491782910530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
+    <SUITE FILE_PATH="coverage/API$Unittest_TestBedsApi_test_getAvailableBeds.coverage" NAME="Unittest TestBedsApi.test_getAvailableBeds Coverage Results" MODIFIED="1491781893438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/APIs" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -39,43 +59,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="API.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API.py">
+      <file leaf-file-name="PlacesApiTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/APIs/PlacesApiTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BedsDao.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/DAOs/BedsDao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-                <marker date="1491775821298" expanded="true" signature="1092:1171" ph="INSERT INTO beds... " />
-                <marker date="1491775821298" expanded="true" signature="1597:1636" ph="SELECT * fro... beds" />
-                <marker date="1491775821298" expanded="true" signature="2476:2536" ph="SELECT * fro... beds" />
-                <marker date="1491775821298" expanded="true" signature="3381:3450" ph="UPDATE beds " />
-                <marker date="1491775821298" expanded="true" signature="3759:3826" ph="UPDATE beds " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="238">
               <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#4052#4059#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitTest_Api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/APIs/UnitTest_Api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitTest_Dao.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/DAOs/UnitTest_Dao.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,36 +120,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainTable.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/mainTable.js">
+      <file leaf-file-name="BedsDao.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/DAOs/BedsDao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainmap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/mainmap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="32" />
+            <state relative-caret-position="448">
+              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
               <folding>
-                <element signature="e#0#41#0" expanded="false" />
-                <marker date="1491774263896" expanded="true" signature="318:324" ph="©" />
-                <marker date="1491774263896" expanded="true" signature="824:833" ph="..." />
-                <marker date="1491774263896" expanded="true" signature="945:954" ph="..." />
+                <element signature="e#0#53#0" expanded="true" />
+                <marker date="1491781627269" expanded="true" signature="1092:1171" ph="INSERT INTO beds... " />
+                <marker date="1491781627269" expanded="true" signature="1597:1636" ph="SELECT * fro... beds" />
+                <marker date="1491781627269" expanded="true" signature="2476:2536" ph="SELECT * fro... beds" />
+                <marker date="1491781627269" expanded="true" signature="3381:3450" ph="UPDATE beds " />
+                <marker date="1491781627269" expanded="true" signature="3759:3826" ph="UPDATE beds " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modal.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/modal.css">
+      <file leaf-file-name="BedsApi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/APIs/BedsApi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beds.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Resources/beds.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-393">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -133,16 +162,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1190">
               <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="5" column="44720" selection-start-line="5" selection-start-column="44716" selection-end-line="5" selection-end-column="44720" />
               <folding />
             </state>
           </provider>
@@ -186,22 +205,24 @@
         <option value="$PROJECT_DIR$/models/DepartmentApi.py" />
         <option value="$PROJECT_DIR$/models/PlacesApi.py" />
         <option value="$PROJECT_DIR$/models/Resources/places.py" />
-        <option value="$PROJECT_DIR$/models/APIs/PlacesApiTest.py" />
         <option value="$PROJECT_DIR$/models/setUpConnectionsTest.py" />
         <option value="$PROJECT_DIR$/models/APIs/PlacesApi.py" />
-        <option value="$PROJECT_DIR$/models/Resources/beds.py" />
         <option value="$PROJECT_DIR$/models/setUpConnection.py" />
         <option value="$PROJECT_DIR$/models/APIs/BedsApi.py" />
         <option value="$PROJECT_DIR$/models/DAOs/PlacesDao.py" />
         <option value="$PROJECT_DIR$/static/js/mainTable.js" />
         <option value="$PROJECT_DIR$/static/js/mainmap.js" />
-        <option value="$PROJECT_DIR$/models/DAOs/BedsDao.py" />
         <option value="$PROJECT_DIR$/API.py" />
         <option value="$PROJECT_DIR$/static/js/modal.css" />
         <option value="$PROJECT_DIR$/static/js/createTable.js" />
         <option value="$PROJECT_DIR$/static/modal.css" />
         <option value="$PROJECT_DIR$/static/dashboard.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/models/Resources/beds.py" />
+        <option value="$PROJECT_DIR$/models/DAOs/BedsDao.py" />
+        <option value="$PROJECT_DIR$/models/APIs/PlacesApiTest.py" />
+        <option value="$PROJECT_DIR$/models/APIs/UnitTest_Api.py" />
+        <option value="$PROJECT_DIR$/models/DAOs/UnitTest_Dao.py" />
       </list>
     </option>
   </component>
@@ -440,36 +461,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.API">
-    <configuration default="false" name="Unittests in setUpConnectionsTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in TestBedsDao (2)">
+    <configuration default="false" name="Unittests in TestBedsDao" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="API" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/setUpConnectionsTest.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PlacesDao" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/DAOs" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -477,27 +473,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="API" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/DAOs/PlacesDao.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in PlacesApiTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/APIs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="API" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/APIs/PlacesApiTest.py" />
-      <option name="CLASS_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/DAOs/UnitTest_Dao.py" />
+      <option name="CLASS_NAME" value="TestBedsDao" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -505,12 +485,10 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="BedsDao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest TestBedsDao.test_createNewBed" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/DAOs" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -518,27 +496,85 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="API" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/DAOs/BedsDao.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/DAOs/UnitTest_Dao.py" />
+      <option name="CLASS_NAME" value="TestBedsDao" />
+      <option name="METHOD_NAME" value="test_createNewBed" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="setUpConnection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittests in TestBedsDao (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/DAOs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="API" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/setUpConnection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/DAOs/UnitTest_Dao.py" />
+      <option name="CLASS_NAME" value="TestBedsDao" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in TestPlacesDao" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/DAOs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="API" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/DAOs/UnitTest_Dao.py" />
+      <option name="CLASS_NAME" value="TestPlacesDao" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in TestBedsDao (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/DAOs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="API" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/DAOs/UnitTest_Dao.py" />
+      <option name="CLASS_NAME" value="TestBedsDao" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1187,19 +1223,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.API" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in setUpConnectionsTest" />
-      <item index="2" class="java.lang.String" itemvalue="Python.PlacesDao" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in PlacesApiTest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.BedsDao" />
-      <item index="5" class="java.lang.String" itemvalue="Python.setUpConnection" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestBedsDao" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestBedsDao.test_createNewBed" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in TestBedsDao (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestPlacesDao" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in TestBedsDao (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.setUpConnection" />
-        <item index="1" class="java.lang.String" itemvalue="Python.BedsDao" />
-        <item index="2" class="java.lang.String" itemvalue="Python.PlacesDao" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in setUpConnectionsTest" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in PlacesApiTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestBedsDao (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestPlacesDao" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in TestBedsDao (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestBedsDao.test_createNewBed" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestBedsDao" />
       </list>
     </recent_temporary>
   </component>
@@ -1221,7 +1257,7 @@
       <workItem from="1490794603934" duration="1065000" />
       <workItem from="1491672850524" duration="12213000" />
       <workItem from="1491752648273" duration="2984000" />
-      <workItem from="1491760855859" duration="18224000" />
+      <workItem from="1491760855859" duration="21189000" />
     </task>
     <task id="LOCAL-00001" summary="Place API complete, Beds Api Completed">
       <created>1491753445594</created>
@@ -1244,43 +1280,50 @@
       <option name="project" value="LOCAL" />
       <updated>1491775160740</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Apis connected to amazon mysql">
+      <created>1491780703689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1491780703689</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_PlacesApiTest - 2017.03.26 at 22h 49m 50s.xml">
-      <configuration name="Unittests in PlacesApiTest" configurationId="tests" />
+    <history-entry file="Unittest_TestBedsDao_test_createNewBed - 2017.04.09 at 20h 17m 37s.xml">
+      <configuration name="Unittest TestBedsDao.test_createNewBed" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_setUpConnectionsTest - 2017.03.26 at 18h 07m 42s.xml">
-      <configuration name="Unittests in setUpConnectionsTest" configurationId="tests" />
+    <history-entry file="Unittest_TestBedsDao_test_createNewBed - 2017.04.09 at 20h 19m 54s.xml">
+      <configuration name="Unittest TestBedsDao.test_createNewBed" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_setUpConnectionsTest - 2017.03.26 at 18h 16m 05s.xml">
-      <configuration name="Unittests in setUpConnectionsTest" configurationId="tests" />
+    <history-entry file="Unittests_in_TestBedsDao - 2017.04.09 at 20h 13m 33s.xml">
+      <configuration name="Unittests in TestBedsDao" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_setUpConnectionsTest - 2017.03.26 at 18h 16m 32s.xml">
-      <configuration name="Unittests in setUpConnectionsTest" configurationId="tests" />
+    <history-entry file="Unittests_in_TestBedsDao - 2017.04.09 at 20h 14m 55s.xml">
+      <configuration name="Unittests in TestBedsDao" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_setUpConnectionsTest - 2017.03.26 at 18h 21m 37s.xml">
-      <configuration name="Unittests in setUpConnectionsTest" configurationId="tests" />
+    <history-entry file="Unittests_in_TestBedsDao - 2017.04.09 at 20h 15m 18s.xml">
+      <configuration name="Unittests in TestBedsDao" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_setUpConnectionsTest - 2017.03.26 at 18h 22m 03s.xml">
-      <configuration name="Unittests in setUpConnectionsTest" configurationId="tests" />
+    <history-entry file="Unittests_in_TestBedsDao - 2017.04.09 at 20h 17m 45s.xml">
+      <configuration name="Unittests in TestBedsDao" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_setUpConnectionsTest - 2017.03.26 at 18h 50m 59s.xml">
-      <configuration name="Unittests in setUpConnectionsTest" configurationId="tests" />
+    <history-entry file="Unittests_in_TestBedsDao - 2017.04.09 at 20h 18m 28s.xml">
+      <configuration name="Unittests in TestBedsDao" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_setUpConnectionsTest - 2017.03.26 at 18h 53m 53s.xml">
-      <configuration name="Unittests in setUpConnectionsTest" configurationId="tests" />
+    <history-entry file="Unittests_in_TestBedsDao_(1) - 2017.04.09 at 20h 19m 59s.xml">
+      <configuration name="Unittests in TestBedsDao (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_setUpConnectionsTest - 2017.03.29 at 09h 43m 51s.xml">
-      <configuration name="Unittests in setUpConnectionsTest" configurationId="tests" />
+    <history-entry file="Unittests_in_TestBedsDao_(2) - 2017.04.09 at 20h 21m 07s.xml">
+      <configuration name="Unittests in TestBedsDao (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_setUpConnectionsTest - 2017.03.29 at 09h 44m 06s.xml">
-      <configuration name="Unittests in setUpConnectionsTest" configurationId="tests" />
+    <history-entry file="Unittests_in_TestPlacesDao - 2017.04.09 at 20h 20m 19s.xml">
+      <configuration name="Unittests in TestPlacesDao" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56630000" />
+    <option name="totallyTimeSpent" value="59595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1301,7 +1344,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3198198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4189189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1350,26 +1393,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/API.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/APIs/PlacesApiTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/APIs/PlacesApi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1400,11 +1423,11 @@
           <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="145" selection-end-column="33" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1491775821298" expanded="true" signature="1092:1171" ph="INSERT INTO beds... " />
-            <marker date="1491775821298" expanded="true" signature="1597:1636" ph="SELECT * fro... beds" />
-            <marker date="1491775821298" expanded="true" signature="2476:2536" ph="SELECT * fro... beds" />
-            <marker date="1491775821298" expanded="true" signature="3381:3450" ph="UPDATE beds " />
-            <marker date="1491775821298" expanded="true" signature="3759:3826" ph="UPDATE beds " />
+            <marker date="1491781627269" expanded="true" signature="1092:1171" ph="INSERT INTO beds... " />
+            <marker date="1491781627269" expanded="true" signature="1597:1636" ph="SELECT * fro... beds" />
+            <marker date="1491781627269" expanded="true" signature="2476:2536" ph="SELECT * fro... beds" />
+            <marker date="1491781627269" expanded="true" signature="3381:3450" ph="UPDATE beds " />
+            <marker date="1491781627269" expanded="true" signature="3759:3826" ph="UPDATE beds " />
           </folding>
         </state>
       </provider>
@@ -1478,7 +1501,7 @@
         <state relative-caret-position="255">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="false" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1558,7 +1581,7 @@
         <state relative-caret-position="255">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="false" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1659,20 +1682,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1644">
           <caret line="335" column="6" selection-start-line="335" selection-start-column="6" selection-end-line="335" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/DepartmentApi.py" />
-    <entry file="file://$PROJECT_DIR$/models/APIs/PlacesApiTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/APIs/PlacesApi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1704,14 +1718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Resources/beds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1738,29 +1744,6 @@
             <marker date="1491774173058" expanded="true" signature="1317:1371" ph="SELECT place... places" />
             <marker date="1491774173058" expanded="true" signature="2291:2757" ph="SELECT place... raw_data" />
             <marker date="1491774173058" expanded="true" signature="2498:2552" ph="SELECT place... places" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/APIs/BedsApi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/DAOs/BedsDao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-            <marker date="1491775821298" expanded="true" signature="1092:1171" ph="INSERT INTO beds... " />
-            <marker date="1491775821298" expanded="true" signature="1597:1636" ph="SELECT * fro... beds" />
-            <marker date="1491775821298" expanded="true" signature="2476:2536" ph="SELECT * fro... beds" />
-            <marker date="1491775821298" expanded="true" signature="3381:3450" ph="UPDATE beds " />
-            <marker date="1491775821298" expanded="true" signature="3759:3826" ph="UPDATE beds " />
           </folding>
         </state>
       </provider>
@@ -1840,11 +1823,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="238">
           <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#4052#4059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Resources/beds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/DAOs/BedsDao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+            <marker date="1491781627269" expanded="true" signature="1092:1171" ph="INSERT INTO beds... " />
+            <marker date="1491781627269" expanded="true" signature="1597:1636" ph="SELECT * fro... beds" />
+            <marker date="1491781627269" expanded="true" signature="2476:2536" ph="SELECT * fro... beds" />
+            <marker date="1491781627269" expanded="true" signature="3381:3450" ph="UPDATE beds " />
+            <marker date="1491781627269" expanded="true" signature="3759:3826" ph="UPDATE beds " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/APIs/BedsApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/APIs/PlacesApiTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/APIs/UnitTest_Api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/DAOs/UnitTest_Dao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

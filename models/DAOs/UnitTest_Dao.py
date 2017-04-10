@@ -7,7 +7,7 @@ from models.Resources import places
 
 class TestBedsDao(unittest.TestCase):
 
-    def setup(self):
+    def setUp(self):
         self.new = BedsDao.BedDao()
         self.bed_id = 40
         self.guest_id = 35
@@ -17,13 +17,14 @@ class TestBedsDao(unittest.TestCase):
         self.bed = beds.Bed(self.bed_id, self.guest_id, self.placeid, self.availability)
 
     def test_createNewBed(self):
-        self.assertEqual(self.bed, True)
+
+        self.assertEqual(self.bed.bed_id, self.bed_id)
 
     def test_getBeds(self):
-        self.assertEqual(self.new.getBeds(self.placeid), True)
+        self.assertGreater(len(self.new.getBeds(self.placeid)), 0)
 
     def test_getAvailableBeds(self):
-        self.assertEqual(self.new.getAvailableBeds(self.placeid), True)
+        self.assertGreater(len(self.new.getAvailableBeds(self.placeid)), 0)
 
     def test_setNewGuest(self):
         self.assertEqual(self.new.setNewGuest(self.bed_id, self.new_guest_id), True)
@@ -34,7 +35,7 @@ class TestBedsDao(unittest.TestCase):
 
 class TestPlacesDao(unittest.TestCase):
 
-    def setup(self):
+    def setUp(self):
         self.new = PlacesDao.PlaceDao()
         self.id = 37
         self.name = "TestName"

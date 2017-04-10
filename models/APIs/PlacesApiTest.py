@@ -12,5 +12,7 @@ class MyTestCase(unittest.TestCase):
         result = new.saveNewPlace(new_place)
         self.assertEqual(result, False)
 
+
+
 if __name__ == '__main__':
     unittest.main()
