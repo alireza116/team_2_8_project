@@ -4,6 +4,8 @@
 
 var createTable = function(){
 
+    this.bed_id = null;
+
     $.get("http://127.0.0.1:5000/place", function(data) {
         // create the table header
         d3.select("tr").remove();
@@ -15,11 +17,11 @@ var createTable = function(){
         // create rows
         var tr = d3.select("tbody").selectAll("tr")
             .data(data).enter().append("tr").attr("class", function(d){
-                console.log(d);
-                return d.placeID});
+                return "place"+d.placeID});
 
         tr.on("click",function(d){
             var placeid = d.placeID;
+            modal = 1;
             $.get("http://127.0.0.1:5000/bed?placeid="+placeid,function(newData){
                 createTable.newTable(newData)
             })
@@ -30,6 +32,8 @@ var createTable = function(){
             .enter().append("td")
             .text(function(i) {return i})
     });
+
+
 
 
     this.newTable = function(data){
@@ -43,12 +47,30 @@ var createTable = function(){
         var tr = d3.select("tbody").selectAll("tr")
             .data(data).enter().append("tr").attr("class", function(d){
                 console.log(d);
-                return d.placeID});
+                return d.placeID}).attr("id",function(d){
+
+                return d.bed_id;
+            });
         // cells
         var td = tr.selectAll("td")
             .data(function(i){return d3.values(i)})
             .enter().append("td")
-            .text(function(i) {return i})
+            .text(function(i) {return i});
+
+        tr.on("click",function(d){
+            createTable.bed_id = d.bed_id;
+            console.log("kir");
+            if (modal == 1) {
+                if (d.Availability == 1){
+                    $('#myModal').modal('toggle');
+                }
+                else {
+                    $('#checkout-modal').modal('toggle');
+                }
+
+            }
+
+        })
     }
 
 };

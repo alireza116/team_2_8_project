@@ -52,7 +52,7 @@ class BedDao(IBedDao):
         with self._connection.cursor() as cursor:
             try:
                 sql = '''INSERT INTO beds (placeid, guest_id, bed_id, availability) VALUES (%s,%s,%s,%s)'''
-                values = [bed.placeid, bed.geust_id, bed.bed_id, bed.availability]
+                values = [bed.placeid, bed.guest_id, bed.bed_id, bed.availability]
                 cursor.execute(sql,values)
                 return True
             except Exception as e:
@@ -118,7 +118,7 @@ class BedDao(IBedDao):
             try:
                 sql = '''UPDATE beds SET guest_id = (%s), availability = 0 WHERE bed_id = (%s) '''
 
-                cursor.execute(sql, [bed_id,new_guest])
+                cursor.execute(sql, [new_guest, bed_id])
                 return True
             except Exception as e:
                 print(e)

@@ -59,11 +59,21 @@ $.get("http://127.0.0.1:5000/place/counts", function(data){
         .attr("r", function(d){
             return radiusScale(d.count)
         }).attr("class",function(d){
-            return d.placeID;
+            return "place"+d.placeID;
+        }).on("mouseover",function(d){
+            d3.select(this).style("fill","darkorange");
+            var id = d.placeID;
+            console.log(id);
+            d3.select(".table-responsive").select(".place"+id).selectAll("td").style("color","darkorange");
+        }).on("mouseout", function(d){
+            d3.select(this).style("fill", "red");
+            var id = d.placeID;
+            d3.select(".table-responsive").select(".place"+id).selectAll("td").style("color","black");
         });
 
     circles.on("click", function(d){
         var placeid = d.placeID;
+        modal = 1;
         $.get("http://127.0.0.1:5000/bed?placeid="+placeid,function(newData){
             createTable.newTable(newData)
         })
@@ -71,6 +81,7 @@ $.get("http://127.0.0.1:5000/place/counts", function(data){
     });
 
     $("#seeAll").click(function(){
+        modal = 0;
         createTable.newTable(data)
     });
     // circles
