@@ -60,6 +60,8 @@ $.get("http://127.0.0.1:5000/place/counts", function(data){
             return radiusScale(d.count)
         }).attr("class",function(d){
             return "place"+d.placeID;
+        }).attr("title",function(d){
+            return d.count;
         }).on("mouseover",function(d){
             d3.select(this).style("fill","darkorange");
             var id = d.placeID;

@@ -34,10 +34,10 @@ class ConnectionData(IConnectionData):
     """
 
     def __init__(self):
-        self._user_name = "darts"
-        self._password = "darts2017"
+        self._user_name = "root"
+        self._password = ""
         self._db_name = "hmis"
-        self._db_host = "karduni.ccvkgysiex9c.us-west-2.rds.amazonaws.com"
+        self._db_host = "localhost"
 
     @property
     def user_name(self):

@@ -26,8 +26,8 @@ class BedsApi():
         result = self._beds_Dao.setNewGuest(bed_id, new_guest)
         return result
 
-    def removeGuest(self, bed_id):
-        result = self._beds_Dao.removeGuest(bed_id)
+    def removeGuest(self, bed_id, guest_id):
+        result = self._beds_Dao.removeGuest(bed_id, guest_id)
         return result
 
 

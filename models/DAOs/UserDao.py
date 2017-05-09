@@ -38,10 +38,10 @@ class UserDao(IUserDao):
                 sql = '''INSERT INTO users (user_id, username, password, firstname, lastname, user_type) VALUES (NULL,%s,%s,%s,%s,%s)'''
                 values = [user.username, user.password, user.firstname, user.lastname, user.user_type]
                 cursor.execute(sql,values)
-                return True
+                return Truec
             except Exception as e:
                 print(e)
-                return str(e)
+                return False
 
     def getUser(self, username, password):
         """

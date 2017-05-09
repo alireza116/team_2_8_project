@@ -61,7 +61,7 @@ var createTable = function(){
             createTable.bed_id = d.bed_id;
             console.log("kir");
             if (modal == 1) {
-                if (d.Availability == 1){
+                if (d.Availability == "yes"){
                     $('#myModal').modal('toggle');
                 }
                 else {

@@ -76,11 +76,14 @@ class BedDao(IBedDao):
                     bed[0] = int(bed[0])
                     bed[1] = int(bed[1])
                     bed[2] = int(bed[2])
+                    availability = "no"
+                    if bed[3] == 1:
+                        availability = "yes"
                     bedObject = {
                         "palce_id": bed[0],
-                        "guest_id": bed[1],
+                        # "guest_id": bed[1],
                         "bed_id" : bed[2],
-                        "Availability" : bed[3]
+                        "Availability" : availability
                     }
                     data.append(bedObject)
                 return data
@@ -124,13 +127,16 @@ class BedDao(IBedDao):
                 print(e)
                 return str(e)
 
-    def removeGuest(self, bed_id):
+    def removeGuest(self, bed_id, guest_id):
         with self._connection.cursor() as cursor:
             try:
-                sql = '''UPDATE beds SET guest_id = -1, availability = 1 WHERE bed_id = (%s) '''
+                sql = '''UPDATE beds SET guest_id = -1, availability = 1 WHERE bed_id = (%s) AND guest_id = (%s) '''
 
+                cursor.execute(sql, [bed_id, guest_id])
+                sql = '''SELECT availability from beds where bed_id = (%s)'''
                 cursor.execute(sql, bed_id)
-                return True
+                result = cursor.fetchone()[0]
+                return result
             except Exception as e:
                 print(e)
                 return str(e)

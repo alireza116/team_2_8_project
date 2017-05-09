@@ -43,12 +43,13 @@ $("#reserve-bed").on("click",function(e){
     $("#checkout-bed").on("click",function(e){
         e.preventDefault();
 
-        // var guestID = $("#guest-id").val();
+        var guest_id = $("#checkout-id").val();
         var checkoutSure = $("#checkout-sure").val();
         console.log(checkoutSure);
         var bed_id = createTable.bed_id;
         var guestData = {
-            bed_id : bed_id
+            bed_id : bed_id,
+            guest_id : guest_id
         };
         console.log(JSON.stringify(guestData));
         if (bed_id != null && document.getElementById('checkout-sure').checked){
@@ -65,7 +66,13 @@ $("#reserve-bed").on("click",function(e){
                 contentType: 'application/json',
                 data: JSON.stringify(guestData),
                 success: function(d){
-                    alert("success!")
+                    console.log(d);
+                    if (d == 1){
+                        alert("success!")
+                    }
+                    else {
+                        alert("please enter correct guest id!")
+                    }
                 }
                 ,
                 error: function( jqXhr, textStatus, errorThrown ){

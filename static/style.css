@@ -181,3 +181,9 @@ tr:hover {
 circle:hover{
     fill:darkorange;
 }
+
+#adminText{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white  !important;
+}

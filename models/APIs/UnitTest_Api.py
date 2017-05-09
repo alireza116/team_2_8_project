@@ -38,34 +38,6 @@ class TestBedsApi(unittest.TestCase):
         self.assertEqual(self.new.removeGuest(self.bed_id), True)
 
 
-class TestPlacesApi(unittest.TestCase):
-    def setUp(self):
-        self.new2 = PlacesApi.PlaceAPI()
-        self.id = 37
-        self.name = "TestName"
-        self.address = "TestAddress"
-        self.X = 39
-        self.Y = 48
-
-    def test_createNewPlace(self):
-        newPlace = places.Place(self.id, self.name, self.address, self.X, self.Y)
-        apiPlace = self.new2.createNewPlace(self.id, self.name, self.address, self.X, self.Y)
-        print(newPlace)
-        # self.assertEqual(newPlace.id, apiPlace.id)
-        # self.assertEqual(newPlace.name, apiPlace.name)
-        # self.assertEqual(newPlace.address, apiPlace.address)
-        # self.assertEqual(newPlace.X, apiPlace.X)
-        # self.assertEqual(newPlace.Y, apiPlace.Y)
-
-    def test_saveNewPlace(self):
-            self.assertEqual(self.new2.saveNewPlace(self.new2.createNewPlace(self.id, self.name, self.address, self.X, self.Y)), True)
-            # Mock needed?
-
-    def test_getPlaces(self):
-        self.assertEqual(self.new2.getPlaces(), True)
-
-    def test_getPlaceCounts(self):
-        self.assertEqual(self.new2.getPlaceCounts(), True)
 
 
 if __name__ == '__main__':

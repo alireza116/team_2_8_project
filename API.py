@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, send_file, request
-from models.APIs import PlacesApi, BedsApi
+from models.APIs import PlacesApi, BedsApi, UsersAPI
 from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
@@ -62,8 +62,9 @@ def setNewGuest():
 @app.route("/bed/checkout" , methods=["POST"])
 def removeGuest():
     data = request.json
+    print(data)
     bedsapi = BedsApi.BedsApi()
-    result = bedsapi.removeGuest(data["bed_id"])
+    result = bedsapi.removeGuest(data["bed_id"], data["guest_id"])
     return jsonify(result)
 
 @app.route("/bed", methods=["POST"])
@@ -73,6 +74,17 @@ def createNewBed():
     new_bed = bedsapi.createNewBed(data["bed_id"],data["guest_id"],data["placeid"],data["availability"])
     result = bedsapi.saveNewPlace(new_bed)
     return jsonify(result)
+
+@app.route("/login",methods=["GET"])
+def getUser():
+    data = request.args
+    api = UsersAPI.UsersApi()
+    result = api.getUsers(data["username"],data["password"])
+    if len(result) > 0:
+        return "logged in"
+    else:
+        return "username or password is incorrect"
+
 
 if __name__ == '__main__':
     app.run(debug=True)

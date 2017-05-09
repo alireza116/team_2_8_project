@@ -10,6 +10,10 @@ class UsersApi():
         newUser = users.User('NULL', username, password, firstname, lastname, user_type)
         return newUser
 
+    def saveNewUser(self,newUser):
+        result = self._users_Dao.createNewUser(newUser)
+        return result
+
     def getUsers(self, username, password):
         result = self._users_Dao.getUser(username, password)
         return result
